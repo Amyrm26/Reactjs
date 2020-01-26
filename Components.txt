@@ -1,0 +1,61 @@
+import React from 'react';
+
+class MiComponente extends React.Component{
+
+    render(){
+        return(
+         <h2>Estoy cursando el último año del técnico en Informática.</h2>
+        );
+    }
+}
+
+export default MiComponente;
+
+
+
+import React from 'react';
+
+class Componente extends React.Component{
+
+    render(){
+        return(
+         <h1>Aunque, entre las cosas que más me gusta es la Gimnasia Rítmica Deportiva.</h1>
+        );
+    }
+}
+
+export default Componente;
+
+
+C:\Users\Admin\Documents\Servidor\framework
+
+
+app.js
+
+import MiComponente from './components/MiComponente';
+import Componente from './components/Componente';
+
+
+<section className= "componentes">
+          
+          <MiComponente/>
+          <Componente/>
+
+        </section>
+
+esto va dentro del return en app.js
+
+<div className="App">
+      <header className="App-header">
+       
+        <p>
+          Hola mi nombre es Amy!!!
+        </p>
+       
+        <section className="Componentes">
+        <Componente/>
+
+      </section>
+      </header>
+      
+    </div>
